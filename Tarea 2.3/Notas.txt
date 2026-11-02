@@ -1,0 +1,12 @@
+﻿Para esta práctica desarrollamos una aplicación en C# que resuelve las Torres de Hanói, un problema clásico que se adapta perfectamente a la recursividad.
+En el código definimos:
+
+El caso base: Cuando ya no quedan discos por mover (`n == 0`), la función se detiene.
+El caso recursivo: Divide el problema en llamadas más pequeñas para mover los discos entre las torres de origen, auxiliar y destino.
+
+Además, utilizamos la clase `Stopwatch` para medir el tiempo de ejecución y el número total de 
+llamadas según incrementamos la profundidad `n` desde 3 hasta 20 discos.
+
+
+Si ejecutamos el programa en la consola, podemos observar cómo el número de llamadas y el tiempo de ejecución
+aumentan exponencialmente siguiendo la fórmula teórica de 2^n - 1. (Muestra la consola corriendo los resultados).
